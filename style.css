@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+#hero-section h1, #plant-section h2, #plant-lover-section h2, #join-section h3 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+#badge-section{
+    background-image: url('./assets/flower-store.png');
+    background-repeat: no-repeat;
+}
+#join-section{
+    background-image: url('./assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
