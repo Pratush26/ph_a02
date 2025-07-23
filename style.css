@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
-#hero-section h1, #plant-section h2, #plant-lover-section h2, #join-section h3 {
+#hero-section h1, #plant-section h2, #plant-lover-section h2, #join-section h3, #latest-deal-section h3, .img-section p {
     font-family: 'Noto Serif', serif;
     font-weight: bold;
 }
@@ -16,4 +16,44 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#img1{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48%;
+}
+#img2{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48%;
+}
+#img3{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.img-section p{
+    z-index: 200;
+}
+.img-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
