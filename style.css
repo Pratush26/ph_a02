@@ -10,6 +10,8 @@
 #badge-section{
     background-image: url('./assets/flower-store.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #join-section{
     background-image: url('./assets/news-letter-bg.png');
