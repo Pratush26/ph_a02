@@ -19,6 +19,17 @@
     background-size: cover;
     background-position: center;
 }
+#plant-lover-section-img{
+    animation: rotate 16s linear infinite forwards;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 #img1{
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
